@@ -1,0 +1,25 @@
+{
+  "id": "ja-keigo",
+  "course": "ja",
+  "level": "advanced",
+  "name": "敬语体系",
+  "description": "尊敬语、谦让语、郑重语三类的分工，加上必须背的一批特殊敬语动词。职场和客服场景绕不开。",
+  "cards": [
+    { "id": "ja-keigo-001", "type": "concept", "prompt": "敬语的三大类分别是什么？", "answer": "尊敬语（抬高对方动作）、谦让语（压低自己动作）、郑重语（です・ます・ございます）。", "explanation": "判断标准：这个动作是谁做的？对方的用尊敬，自己的用谦让。", "tags": ["敬语", "基础"] },
+    { "id": "ja-keigo-002", "type": "concept", "prompt": "「お〜になる」是哪种敬语？", "answer": "尊敬语，用在对方的动作上：お読みになる（读）、お待ちになる（等）。", "explanation": "「お」+ ます形词干 + になる，是最通用的一条尊敬语规则。", "tags": ["敬语", "尊敬语"] },
+    { "id": "ja-keigo-003", "type": "concept", "prompt": "「お〜する」是哪种敬语？", "answer": "谦让语，用在自己的动作上：お持ちします（我来拿）。", "explanation": "为自己做的事降格，表示对对方的敬意。", "tags": ["敬语", "谦让语"] },
+    { "id": "ja-keigo-004", "type": "concept", "prompt": "「〜れる／られる」除了被动，还能表示什么？", "answer": "尊敬语：先生が読まれる（老师读）。", "explanation": "和被动同形，靠上下文和主语判断。", "tags": ["敬语", "尊敬语"] },
+    { "id": "ja-keigo-005", "type": "vocab", "prompt": "**いらっしゃる**（irassharu）", "answer": "来、去、在（尊敬语，三个意思都包）。", "explanation": "对方「来る・行く・いる」全用它，最万能的尊敬语。", "tags": ["敬语", "尊敬语"] },
+    { "id": "ja-keigo-006", "type": "vocab", "prompt": "**召し上がる**（めしあがる / meshiagaru）", "answer": "吃、喝（尊敬语）。例：どうぞ召し上がってください。", "explanation": "对方吃喝用 召し上がる；自己吃喝用 いただく。", "tags": ["敬语", "尊敬语"] },
+    { "id": "ja-keigo-007", "type": "vocab", "prompt": "**いただく**（itadaku）", "answer": "吃、喝、领受（谦让语）。例：いただきます（我开动了）。", "explanation": "吃饭前那句 いただきます 就是它，原意是「领受」。", "tags": ["敬语", "谦让语"] },
+    { "id": "ja-keigo-008", "type": "vocab", "prompt": "**申し上げる**（もうしあげる / moushiageru）", "answer": "说（谦让语，比 言う 低）。例：お礼を申し上げます。", "explanation": "正式致辞里常用；日常说 申します 即可。", "tags": ["敬语", "谦让语"] },
+    { "id": "ja-keigo-009", "type": "vocab", "prompt": "**拝見する**（はいけんする / haikensuru）", "answer": "看（谦让语）。例：資料を拝見しました。", "explanation": "看对方给的东西用 拝見する，不用说 見ます。", "tags": ["敬语", "谦让语"] },
+    { "id": "ja-keigo-010", "type": "vocab", "prompt": "**伺う**（うかがう / ukagau）", "answer": "问；去、拜访（谦让语）。例：明日伺います。", "explanation": "「聞く」和「行く・訪ねる」的谦让语共用这一个词。", "tags": ["敬语", "谦让语"] },
+    { "id": "ja-keigo-011", "type": "vocab", "prompt": "**おっしゃる**（ossharu）", "answer": "说（尊敬语）。例：社長がおっしゃった。", "explanation": "对方「言う」用 おっしゃる；自己用 申す。", "tags": ["敬语", "尊敬语"] },
+    { "id": "ja-keigo-012", "type": "vocab", "prompt": "**なさる**（nasaru）", "answer": "做（尊敬语）。例：何をなさいますか。", "explanation": "特殊五段动词，ます形是 なさいます。", "tags": ["敬语", "尊敬语"] },
+    { "id": "ja-keigo-013", "type": "vocab", "prompt": "**ご存じ**（ごぞんじ / gozonji）", "answer": "知道（尊敬语）。例：ご存じですか。", "explanation": "对方知道用 ご存じ；自己知道用 存じております。", "tags": ["敬语", "尊敬语"] },
+    { "id": "ja-keigo-014", "type": "vocab", "prompt": "**かしこまりました**（kashikomarimashita）", "answer": "明白了（郑重语，比 わかりました 正式）。", "explanation": "服务业标配；对客人、上级都用它。", "tags": ["敬语", "郑重语"] },
+    { "id": "ja-keigo-015", "type": "tip", "prompt": "职场邮件开头固定用哪句？", "answer": "「お世話になっております」（承蒙关照）。", "explanation": "邮件第一句，几乎不用改；比 いつもお世話様です 正式。", "tags": ["敬语", "商务"] },
+    { "id": "ja-keigo-016", "type": "tip", "prompt": "职场邮件结尾固定用哪句？", "answer": "「よろしくお願いいたします」。", "explanation": "比 よろしくお願いします 更正式，商务邮件默认用这个。", "tags": ["敬语", "商务"] }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "dsh-ja-study",
+  "version": "0.1.0",
+  "private": true,
+  "description": "日语学习面板：本地课程包翻卡、今日进度与连续天数。纯面板，不注入提示词，不调用模型。",
+  "icon": "icon.svg",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    },
+    "engines": {
+      "dsh": ">=0.2.1-rc.2"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Fatelikeshit",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fatelikeshit/dsh-ja-study.git"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "courses/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "japanese",
+    "flashcards",
+    "study"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ja-foods",
+  "course": "ja",
+  "level": "beginner",
+  "name": "食物·饮食",
+  "description": "一日三餐、常见食材和饭菜名。点菜、逛超市最先用得上的一批词。",
+  "cards": [
+    { "id": "ja-food-001", "type": "vocab", "prompt": "**ご飯**（ごはん / gohan）", "answer": "米饭；一顿饭。例：ご飯を食べる（ごはんを たべる / gohan o taberu）。", "explanation": "「ご」是敬语前缀，日常固定说 ご飯。", "tags": ["食物", "N5"] },
+    { "id": "ja-food-002", "type": "vocab", "prompt": "**卵**（たまご / tamago）", "answer": "鸡蛋。例：卵を買う（たまごを かう / tamago o kau）。", "explanation": "「たまご」三个音节。", "tags": ["食材", "N5"] },
+    { "id": "ja-food-003", "type": "vocab", "prompt": "**肉**（にく / niku）", "answer": "肉。例：肉が好き（にくが すき / niku ga suki）。", "explanation": "喜欢的东西用「が」。", "tags": ["食材", "N5"] },
+    { "id": "ja-food-004", "type": "vocab", "prompt": "**魚**（さかな / sakana）", "answer": "鱼。例：魚を焼く（さかなを やく / sakana o yaku）。", "explanation": "「焼く」＝烤、煎。", "tags": ["食材", "N5"] },
+    { "id": "ja-food-005", "type": "vocab", "prompt": "**野菜**（やさい / yasai）", "answer": "蔬菜。例：野菜を食べる（やさいを たべる / yasai o taberu）。", "explanation": "「やさい」的「さい」两个音节。", "tags": ["食材", "N5"] },
+    { "id": "ja-food-006", "type": "vocab", "prompt": "**果物**（くだもの / kudamono）", "answer": "水果。例：果物は甘い（くだものは あまい / kudamono wa amai）。", "explanation": "「くだもの」四个音节，不是「果实」。", "tags": ["食材", "N5"] },
+    { "id": "ja-food-007", "type": "vocab", "prompt": "**牛乳**（ぎゅうにゅう / gyuunyuu）", "answer": "牛奶。例：牛乳を飲む（ぎゅうにゅうを のむ / gyuunyuu o nomu）。", "explanation": "两个长音：ぎゅう・にゅう。", "tags": ["饮品", "N5"] },
+    { "id": "ja-food-008", "type": "vocab", "prompt": "**お茶**（おちゃ / ocha）", "answer": "茶。例：お茶をどうぞ（おちゃを どうぞ / ocha o douzo）。", "explanation": "「ちゃ」读 cha，不读 ちや。", "tags": ["饮品", "N5"] },
+    { "id": "ja-food-009", "type": "vocab", "prompt": "**酒**（さけ / sake）", "answer": "酒。例：酒は飲まない（さけは のまない / sake wa nomanai）。", "explanation": "「飲まない」是否定形。", "tags": ["饮品", "N5"] },
+    { "id": "ja-food-010", "type": "vocab", "prompt": "**寿司**（すし / sushi）", "answer": "寿司。例：寿司を食べたい（すしを たべたい / sushi o tabetai）。", "explanation": "「〜たい」＝想做。", "tags": ["料理", "N5"] },
+    { "id": "ja-food-011", "type": "vocab", "prompt": "**ラーメン**（raamen）", "answer": "拉面。例：ラーメンを食べる（らーめんを たべる / raamen o taberu）。", "explanation": "「ー」是长音；「ン」是拨音。", "tags": ["料理", "N5"] },
+    { "id": "ja-food-012", "type": "vocab", "prompt": "**カレー**（karee）", "answer": "咖喱。例：カレーを作る（かれーを つくる / karee o tsukuru）。", "explanation": "日语咖喱饭是国民料理，便利店都有。", "tags": ["料理", "N5"] },
+    { "id": "ja-food-013", "type": "vocab", "prompt": "**お菓子**（おかし / okashi）", "answer": "点心、零食。例：お菓子を食べる（おかしを たべる / okashi o taberu）。", "explanation": "「お」是敬语前缀，固定搭配。", "tags": ["食物", "N5"] },
+    { "id": "ja-food-014", "type": "vocab", "prompt": "**味**（あじ / aji）", "answer": "味道。例：味がいい（あじが いい / aji ga ii）。", "explanation": "「味がいい」＝味道好。", "tags": ["食物", "N5"] },
+    { "id": "ja-food-015", "type": "vocab", "prompt": "**朝ご飯**（あさごはん / asagohan）", "answer": "早饭。例：朝ご飯を食べる（あさごはんを たべる / asagohan o taberu）。", "explanation": "朝＋ご飯；同理有 昼ご飯、晩ご飯。", "tags": ["三餐", "N5"] },
+    { "id": "ja-food-016", "type": "vocab", "prompt": "**昼ご飯**（ひるごはん / hirugohan）", "answer": "午饭。例：昼ご飯は何？（ひるごはんは なに？ / hirugohan wa nani?）。", "explanation": "口语也说「お昼」。", "tags": ["三餐", "N5"] },
+    { "id": "ja-food-017", "type": "vocab", "prompt": "**晩ご飯**（ばんごはん / bangohan）", "answer": "晚饭。例：晩ご飯を作る（ばんごはんを つくる / bangohan o tsukuru）。", "explanation": "「ばん」的「ん」占一拍。", "tags": ["三餐", "N5"] },
+    { "id": "ja-food-018", "type": "vocab", "prompt": "**食べ物**（たべもの / tabemono）", "answer": "食物。例：好きな食べ物（すきな たべもの / suki na tabemono）。", "explanation": "动词 食べる 去掉 る + もの＝吃的东西。", "tags": ["食物", "N5"] },
+    { "id": "ja-food-019", "type": "vocab", "prompt": "**飲み物**（のみもの / nomimono）", "answer": "饮料。例：飲み物は何ですか（のみものは なんですか / nomimono wa nan desu ka）。", "explanation": "和 食べ物 同一构词法。", "tags": ["饮品", "N5"] },
+    { "id": "ja-food-020", "type": "vocab", "prompt": "**お腹**（おなか / onaka）", "answer": "肚子。例：お腹が空いた（おなかが すいた / onaka ga suita）。", "explanation": "「お腹が空く」＝肚子饿，固定说法。", "tags": ["身体", "N5"] }
+  ]
+}

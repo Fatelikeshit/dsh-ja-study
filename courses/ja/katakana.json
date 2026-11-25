@@ -1,0 +1,29 @@
+{
+  "id": "ja-katakana",
+  "course": "ja",
+  "level": "intermediate",
+  "name": "片假名外来语",
+  "description": "日常高频的片假名词：数码、饮品、运动、场所。每个都给出对应平假名读法，方便和五十音对上。",
+  "cards": [
+    { "id": "ja-kata-001", "type": "vocab", "prompt": "**カメラ**（かめら / kamera）", "answer": "相机。例：カメラを買う（かめらを かう / kamera o kau）。", "explanation": "片假名来自英语 camera，读法按平假名 かめら。", "tags": ["片假名", "物品"] },
+    { "id": "ja-kata-002", "type": "vocab", "prompt": "**カード**（かーど / kaado）", "answer": "卡片（信用卡、会员卡）。例：カードで払う（かーどで はらう / kaado de harau）。", "explanation": "「払う」＝支付；手段用「で」。", "tags": ["片假名", "生活"] },
+    { "id": "ja-kata-003", "type": "vocab", "prompt": "**スマホ**（すまほ / sumaho）", "answer": "智能手机。例：スマホを見る（すまほを みる / sumaho o miru）。", "explanation": "smart phone 的缩写，日本人日常就用这个。", "tags": ["片假名", "数码"] },
+    { "id": "ja-kata-004", "type": "vocab", "prompt": "**パソコン**（ぱそこん / pasokon）", "answer": "电脑。例：パソコンで仕事する（ぱそこんで しごとする / pasokon de shigoto suru）。", "explanation": "personal computer 的缩略，读音连成一串。", "tags": ["片假名", "数码"] },
+    { "id": "ja-kata-005", "type": "vocab", "prompt": "**メール**（めーる / meeru）", "answer": "邮件。例：メールを送る（めーるを おくる / meeru o okuru）。", "explanation": "「送る」＝发送。", "tags": ["片假名", "数码"] },
+    { "id": "ja-kata-006", "type": "vocab", "prompt": "**ニュース**（にゅーす / nyuusu）", "answer": "新闻。例：ニュースを見る（にゅーすを みる / nyuusu o miru）。", "explanation": "「にゅ」是拗音，「す」轻。", "tags": ["片假名", "媒体"] },
+    { "id": "ja-kata-007", "type": "vocab", "prompt": "**ゲーム**（げーむ / geemu）", "answer": "游戏。例：ゲームをする（げーむを する / geemu o suru）。", "explanation": "「する」＝玩/做。", "tags": ["片假名", "娱乐"] },
+    { "id": "ja-kata-008", "type": "vocab", "prompt": "**スポーツ**（すぽーつ / supootsu）", "answer": "运动。例：スポーツが好き（すぽーつが すき / supootsu ga suki）。", "explanation": "结尾「つ」清音，不念 zu。", "tags": ["片假名", "运动"] },
+    { "id": "ja-kata-009", "type": "vocab", "prompt": "**サッカー**（さっかー / sakkaa）", "answer": "足球。例：サッカーをする（さっかーを する / sakkaa o suru）。", "explanation": "「ッ」促音＋「ー」长音，读 sakkaa。", "tags": ["片假名", "运动"] },
+    { "id": "ja-kata-010", "type": "vocab", "prompt": "**テニス**（てにす / tenisu）", "answer": "网球。例：テニスをする（てにすを する / tenisu o suru）。", "explanation": "三个音节，短而平。", "tags": ["片假名", "运动"] },
+    { "id": "ja-kata-011", "type": "vocab", "prompt": "**ピアノ**（ぴあの / piano）", "answer": "钢琴。例：ピアノを弾く（ぴあのを ひく / piano o hiku）。", "explanation": "弹琴用「弾く」，不用 する。", "tags": ["片假名", "音乐"] },
+    { "id": "ja-kata-012", "type": "vocab", "prompt": "**ギター**（ぎたー / gitaa）", "answer": "吉他。例：ギターを弾く（ぎたーを ひく / gitaa o hiku）。", "explanation": "两个长音：ぎ・たー。", "tags": ["片假名", "音乐"] },
+    { "id": "ja-kata-013", "type": "vocab", "prompt": "**アニメ**（あにめ / anime）", "answer": "动画片。例：アニメを見る（あにめを みる / anime o miru）。", "explanation": "从 animation 来的，不是「anime」的英语发音。", "tags": ["片假名", "娱乐"] },
+    { "id": "ja-kata-014", "type": "vocab", "prompt": "**レストラン**（れすとらん / resutoran）", "answer": "餐厅。例：レストランで食べる（れすとらんで たべる / resutoran de taberu）。", "explanation": "结尾「ン」占一拍。", "tags": ["片假名", "场所"] },
+    { "id": "ja-kata-015", "type": "vocab", "prompt": "**ホテル**（ほてる / hoteru）", "answer": "酒店。例：ホテルに泊まる（ほてるに とまる / hoteru ni tomaru）。", "explanation": "住酒店用「泊まる」。", "tags": ["片假名", "场所"] },
+    { "id": "ja-kata-016", "type": "vocab", "prompt": "**エレベーター**（えれべーたー / erebeetaa）", "answer": "电梯。例：エレベーターに乗る（えれべーたーに のる / erebeetaa ni noru）。", "explanation": "两个长音：べー、たー。", "tags": ["片假名", "场所"] },
+    { "id": "ja-kata-017", "type": "vocab", "prompt": "**シャワー**（しゃわー / shawaa）", "answer": "淋浴。例：シャワーを浴びる（しゃわーを あびる / shawaa o abiru）。", "explanation": "「浴びる」＝冲（澡），固定搭配。", "tags": ["片假名", "生活"] },
+    { "id": "ja-kata-018", "type": "vocab", "prompt": "**ビール**（びーる / biiru）", "answer": "啤酒。例：ビールを飲む（びーるを のむ / biiru o nomu）。", "explanation": "「びー」长音，和 ビル（大楼）区分。", "tags": ["片假名", "饮食"] },
+    { "id": "ja-kata-019", "type": "vocab", "prompt": "**ケーキ**（けーき / keeki）", "answer": "蛋糕。例：ケーキを食べる（けーきを たべる / keeki o taberu）。", "explanation": "「けー」长音＋「き」。", "tags": ["片假名", "饮食"] },
+    { "id": "ja-kata-020", "type": "vocab", "prompt": "**チョコレート**（ちょこれーと / chokoreeto）", "answer": "巧克力。例：チョコレートが好き（ちょこれーとが すき / chokoreeto ga suki）。", "explanation": "「ちょ」拗音＋「れー」长音，是最长的一个。", "tags": ["片假名", "饮食"] }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ja-idiom",
+  "course": "ja",
+  "level": "advanced",
+  "name": "惯用句（身体词）",
+  "description": "日语最爱用身体部位造句：手を貸す、目が高い、頭が切れる。每个都标读音和罗马音，背下来口语立刻不那么「教科书」。",
+  "cards": [
+    { "id": "ja-idm-001", "type": "vocab", "prompt": "**手を貸す**（てをかす / te o kasu）", "answer": "帮忙、搭把手。例：少し手を貸して（すこし てをかして / sukoshi te o kashite）。", "explanation": "字面「借出手」，实际是「帮个忙」。", "tags": ["惯用句", "身体"] },
+    { "id": "ja-idm-002", "type": "vocab", "prompt": "**目が高い**（めがたかい / me ga takai）", "answer": "有眼光、识货。例：さすが目が高いね（さすが めがたかいね / sasuga me ga takai ne）。", "explanation": "夸人挑东西有品味，不是「眼睛高」。", "tags": ["惯用句", "身体"] },
+    { "id": "ja-idm-003", "type": "vocab", "prompt": "**耳が痛い**（みみがいたい / mimi ga itai）", "answer": "（被说中而）听着刺耳。例：耳が痛い話だ（みみがいたい はなしだ / mimi ga itai hanashi da）。", "explanation": "别人说的正是自己的缺点时用。", "tags": ["惯用句", "身体"] },
+    { "id": "ja-idm-004", "type": "vocab", "prompt": "**口が堅い**（くちがかたい / kuchi ga katai）", "answer": "嘴严、守得住秘密。例：彼は口が堅い（かれは くちがかたい / kare wa kuchi ga katai）。", "explanation": "反之是 口が軽い（嘴快）。", "tags": ["惯用句", "身体"] },
+    { "id": "ja-idm-005", "type": "vocab", "prompt": "**顔が広い**（かおがひろい / kao ga hiroi）", "answer": "人脉广。例：彼は顔が広い（かれは かおがひろい / kare wa kao ga hiroi）。", "explanation": "字面「脸宽」，实际指认识的人多。", "tags": ["惯用句", "身体"] },
+    { "id": "ja-idm-006", "type": "vocab", "prompt": "**頭が切れる**（あたまがきれる / atama ga kireru）", "answer": "头脑聪明、机灵。例：頭が切れる人（あたまがきれる ひと / atama ga kireru hito）。", "explanation": "「切れる」＝锋利，脑子锋利＝聪明。", "tags": ["惯用句", "身体"] },
+    { "id": "ja-idm-007", "type": "vocab", "prompt": "**足を運ぶ**（あしをはこぶ / ashi o hakobu）", "answer": "特地前往、跑一趟。例：何度も足を運んだ（なんども あしをはこんだ / nandomo ashi o hakonda）。", "explanation": "不是普通的「去」，含有「专程」的意思。", "tags": ["惯用句", "身体"] },
+    { "id": "ja-idm-008", "type": "vocab", "prompt": "**肩の荷が下りる**（かたのにがおりる / kata no ni ga oriru）", "answer": "如释重负。例：試験が終わって肩の荷が下りた（しけんが おわって かたのにが おりた / shiken ga owatte kata no ni ga orita）。", "explanation": "字面「肩上的担子放下」，常用来形容松一口气。", "tags": ["惯用句", "身体"] },
+    { "id": "ja-idm-009", "type": "vocab", "prompt": "**骨が折れる**（ほねがおれる / hone ga oreru）", "answer": "费劲、吃力。例：この仕事は骨が折れる（この しごとは ほねがおれる / kono shigoto wa hone ga oreru）。", "explanation": "和「骨折」无关，指事情很耗力。", "tags": ["惯用句", "身体"] },
+    { "id": "ja-idm-010", "type": "vocab", "prompt": "**息を呑む**（いきをのむ / iki o nomu）", "answer": "倒吸一口气（惊讶、紧张）。例：息を呑む美しさ（いきをのむ うつくしさ / iki o nomu utsukushisa）。", "explanation": "「呑む」＝吞，紧张到吞气。", "tags": ["惯用句", "身体"] },
+    { "id": "ja-idm-011", "type": "vocab", "prompt": "**水に流す**（みずにながす / mizu ni nagasu）", "answer": "既往不咎、一笔勾销。例：昔のことは水に流そう（むかしのことは みずにながそう / mukashi no koto wa mizu ni nagasou）。", "explanation": "「流そう」是「流す」的意志形，＝就当没发生过吧。", "tags": ["惯用句", "身体"] },
+    { "id": "ja-idm-012", "type": "vocab", "prompt": "**猫の手も借りたい**（ねこのてもかりたい / neko no te mo karitai）", "answer": "忙得不可开交（连猫的手都想借）。", "explanation": "夸张表达：谁都好，来帮帮我。", "tags": ["惯用句", "身体"] },
+    { "id": "ja-idm-013", "type": "vocab", "prompt": "**腹を割る**（はらをわる / hara o waru）", "answer": "开诚布公、说心里话。例：腹を割って話そう（はらをわって はなそう / hara o watte hanasou）。", "explanation": "「腹」在日语里也指内心。", "tags": ["惯用句", "身体"] },
+    { "id": "ja-idm-014", "type": "vocab", "prompt": "**目を通す**（めをとおす / me o toosu）", "answer": "过目、浏览一遍。例：資料に目を通す（しりょうに めをとおす / shiryou ni me o toosu）。", "explanation": "注意助词是「に」：資料に目を通す。", "tags": ["惯用句", "身体"] }
+  ]
+}

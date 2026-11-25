@@ -1,0 +1,31 @@
+{
+  "id": "ja-objects",
+  "course": "ja",
+  "level": "beginner",
+  "name": "身边物品",
+  "description": "屋里的东西和随身物品：桌椅门窗、钱包钥匙、文具衣物。都是看得见摸得着的词，最好记。",
+  "cards": [
+    { "id": "ja-obj-001", "type": "vocab", "prompt": "**机**（つくえ / tsukue）", "answer": "桌子、书桌。例：机の上（つくえのうえ / tsukue no ue）。", "explanation": "「机」在日语里指桌子，不是「机器」。", "tags": ["物品", "N5"] },
+    { "id": "ja-obj-002", "type": "vocab", "prompt": "**椅子**（いす / isu）", "answer": "椅子。例：椅子に座る（いすにすわる / isu ni suwaru）。", "explanation": "「座る」用助词「に」表示坐的位置。", "tags": ["物品", "N5"] },
+    { "id": "ja-obj-003", "type": "vocab", "prompt": "**窓**（まど / mado）", "answer": "窗户。例：窓を開ける（まどをあける / mado o akeru）。", "explanation": "「開ける」是打开，他动词。", "tags": ["物品", "N5"] },
+    { "id": "ja-obj-004", "type": "vocab", "prompt": "**ドア**（doa）", "answer": "门。例：ドアを閉める（どあをしめる / doa o shimeru）。", "explanation": "片假名外来语；日式的拉门叫 ふすま。", "tags": ["物品", "N5"] },
+    { "id": "ja-obj-005", "type": "vocab", "prompt": "**鍵**（かぎ / kagi）", "answer": "钥匙；锁。例：鍵をかける（かぎをかける / kagi o kakeru）。", "explanation": "「鍵をかける」＝上锁。", "tags": ["物品", "N5"] },
+    { "id": "ja-obj-006", "type": "vocab", "prompt": "**財布**（さいふ / saifu）", "answer": "钱包。例：財布を落とした（さいふを おとした / saifu o otoshita）。", "explanation": "「落とす」是弄丢，他动词。", "tags": ["物品", "N5"] },
+    { "id": "ja-obj-007", "type": "vocab", "prompt": "**鞄**（かばん / kaban）", "answer": "包、书包。例：鞄に入れる（かばんに いれる / kaban ni ireru）。", "explanation": "放进去用「入れる」，在「に」。", "tags": ["物品", "N5"] },
+    { "id": "ja-obj-008", "type": "vocab", "prompt": "**傘**（かさ / kasa）", "answer": "伞。例：傘を持っていく（かさを もっていく / kasa o motte iku）。", "explanation": "「持っていく」＝带着去。", "tags": ["物品", "N5"] },
+    { "id": "ja-obj-009", "type": "vocab", "prompt": "**眼鏡**（めがね / megane）", "answer": "眼镜。例：眼鏡をかける（めがねをかける / megane o kakeru）。", "explanation": "戴眼镜用「かける」，和「上锁」同一个词。", "tags": ["物品", "N5"] },
+    { "id": "ja-obj-010", "type": "vocab", "prompt": "**時計**（とけい / tokei）", "answer": "钟、表。例：時計を見る（とけいをみる / tokei o miru）。", "explanation": "「とけい」的「けい」是长音。", "tags": ["物品", "N5"] },
+    { "id": "ja-obj-011", "type": "vocab", "prompt": "**携帯**（けいたい / keitai）", "answer": "手机（简称）。例：携帯を忘れた（けいたいを わすれた / keitai o wasureta）。", "explanation": "正式说法是 携帯電話；口语常只说 携帯。", "tags": ["物品", "N5"] },
+    { "id": "ja-obj-012", "type": "vocab", "prompt": "**鉛筆**（えんぴつ / enpitsu）", "answer": "铅笔。例：鉛筆で書く（えんぴつでかく / enpitsu de kaku）。", "explanation": "「で」表示工具：用铅笔写。", "tags": ["物品", "N5"] },
+    { "id": "ja-obj-013", "type": "vocab", "prompt": "**消しゴム**（けしごむ / keshigomu）", "answer": "橡皮。例：消しゴムで消す（けしごむで けす / keshigomu de kesu）。", "explanation": "「消す」＝擦掉、关掉。", "tags": ["物品", "N5"] },
+    { "id": "ja-obj-014", "type": "vocab", "prompt": "**紙**（かみ / kami）", "answer": "纸。例：紙に書く（かみにかく / kami ni kaku）。", "explanation": "「に」表示写的地方。", "tags": ["物品", "N5"] },
+    { "id": "ja-obj-015", "type": "vocab", "prompt": "**ノート**（nooto）", "answer": "笔记本。例：ノートを取る（のーとをとる / nooto o toru）。", "explanation": "做笔记＝ノートを取る；「ー」是长音。", "tags": ["物品", "N5"] },
+    { "id": "ja-obj-016", "type": "vocab", "prompt": "**テーブル**（teeburu）", "answer": "餐桌。例：テーブルの上（てーぶるのうえ / teeburu no ue）。", "explanation": "两个长音：てーぶる。", "tags": ["物品", "N5"] },
+    { "id": "ja-obj-017", "type": "vocab", "prompt": "**ベッド**（beddo）", "answer": "床。例：ベッドで寝る（べっどでねる / beddo de neru）。", "explanation": "「ッ」是促音，停一拍：べっ・ど。", "tags": ["物品", "N5"] },
+    { "id": "ja-obj-018", "type": "vocab", "prompt": "**壁**（かべ / kabe）", "answer": "墙壁。例：壁に貼る（かべにはる / kabe ni haru）。", "explanation": "「貼る」＝贴。", "tags": ["物品", "N5"] },
+    { "id": "ja-obj-019", "type": "vocab", "prompt": "**床**（ゆか / yuka）", "answer": "地板。例：床に座る（ゆかにすわる / yuka ni suwaru）。", "explanation": "「床」在这里指地板，不是睡觉的床（那是 ベッド）。", "tags": ["物品", "N5"] },
+    { "id": "ja-obj-020", "type": "vocab", "prompt": "**服**（ふく / fuku）", "answer": "衣服。例：服を着る（ふくをきる / fuku o kiru）。", "explanation": "穿衣服用「着る」，助词「を」。", "tags": ["衣物", "N5"] },
+    { "id": "ja-obj-021", "type": "vocab", "prompt": "**靴**（くつ / kutsu）", "answer": "鞋。例：靴を履く（くつをはく / kutsu o haku）。", "explanation": "穿鞋用「履く」，和穿衣服的「着る」不同。", "tags": ["衣物", "N5"] },
+    { "id": "ja-obj-022", "type": "vocab", "prompt": "**帽子**（ぼうし / boushi）", "answer": "帽子。例：帽子をかぶる（ぼうしを かぶる / boushi o kaburu）。", "explanation": "戴帽子用「かぶる」，第三个「穿」的动词了。", "tags": ["衣物", "N5"] }
+  ]
+}

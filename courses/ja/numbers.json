@@ -1,0 +1,29 @@
+{
+  "id": "ja-numbers",
+  "course": "ja",
+  "level": "beginner",
+  "name": "数字·时间·日期",
+  "description": "数字 4-10、百千万、时刻、日期和星期。每个都标假名和罗马音，附最常见的音变提醒。",
+  "cards": [
+    { "id": "ja-num-001", "type": "vocab", "prompt": "**四**（よん・し / yon, shi）", "answer": "四。例：四月（しがつ / shigatsu）。", "explanation": "数东西用 よん，月份里用 し（四月 しがつ）。", "tags": ["数字", "N5"] },
+    { "id": "ja-num-002", "type": "vocab", "prompt": "**五**（ご / go）", "answer": "五。例：五時（ごじ / goji）。", "explanation": "发音和中文「go」接近，好记。", "tags": ["数字", "N5"] },
+    { "id": "ja-num-003", "type": "vocab", "prompt": "**六**（ろく / roku）", "answer": "六。例：六月（ろくがつ / rokugatsu）。", "explanation": "六月读 ろくがつ，不音变。", "tags": ["数字", "N5"] },
+    { "id": "ja-num-004", "type": "vocab", "prompt": "**七**（なな・しち / nana, shichi）", "answer": "七。例：七月（しちがつ / shichigatsu）。", "explanation": "日期里常读 しち，数的时侯用 なな。", "tags": ["数字", "N5"] },
+    { "id": "ja-num-005", "type": "vocab", "prompt": "**八**（はち / hachi）", "answer": "八。例：八月（はちがつ / hachigatsu）。", "explanation": "「はち」两个音节；后面接 百 会变 はっぴゃく。", "tags": ["数字", "N5"] },
+    { "id": "ja-num-006", "type": "vocab", "prompt": "**九**（きゅう・く / kyuu, ku）", "answer": "九。例：九月（くがつ / kugatsu）。", "explanation": "月份里读 く；时间里读 きゅう（九時 くじ 也是例外）。", "tags": ["数字", "N5"] },
+    { "id": "ja-num-007", "type": "vocab", "prompt": "**百**（ひゃく / hyaku）", "answer": "百。例：三百（さんびゃく / sanbyaku）。", "explanation": "和 300 连读时 ひゃく 变 びゃく；600 是 ろっぴゃく。", "tags": ["数字", "N5"] },
+    { "id": "ja-num-008", "type": "vocab", "prompt": "**千**（せん / sen）", "answer": "千。例：三千（さんぜん / sanzen）。", "explanation": "3000 读 さんぜん，浊化了。", "tags": ["数字", "N5"] },
+    { "id": "ja-num-009", "type": "vocab", "prompt": "**万**（まん / man）", "answer": "万。例：一万（いちまん / ichiman）。", "explanation": "日语按「万」分段，1万＝一万。", "tags": ["数字", "N5"] },
+    { "id": "ja-num-010", "type": "vocab", "prompt": "**〜時**（じ / ji）", "answer": "点、时。例：三時（さんじ / sanji）。", "explanation": "直接接数字，四時读 よじ，不读 よんじ。", "tags": ["时间", "N5"] },
+    { "id": "ja-num-011", "type": "vocab", "prompt": "**〜分**（ふん・ぷん / fun, pun）", "answer": "分。例：五分（ごふん / gofun）、三分（さんぷん / sanpun）。", "explanation": "1分 いっぷん、3分 さんぷん 会变 ぷん，只能逐个记。", "tags": ["时间", "N5"] },
+    { "id": "ja-num-012", "type": "vocab", "prompt": "**何時**（なんじ / nanji）", "answer": "几点。例：今何時ですか（いまなんじですか / ima nanji desu ka）。", "explanation": "问时间最常用的一句。", "tags": ["时间", "N5"] },
+    { "id": "ja-num-013", "type": "vocab", "prompt": "**今日**（きょう / kyou）", "answer": "今天。例：今日は暑い（きょうはあつい / kyou wa atsui）。", "explanation": "「きょ」是拗音，「う」拖长一拍。", "tags": ["日期", "N5"] },
+    { "id": "ja-num-014", "type": "vocab", "prompt": "**明日**（あした / ashita）", "answer": "明天。例：明日行く（あした いく / ashita iku）。", "explanation": "正式场合也说 あす。", "tags": ["日期", "N5"] },
+    { "id": "ja-num-015", "type": "vocab", "prompt": "**昨日**（きのう / kinou）", "answer": "昨天。例：昨日休んだ（きのう やすんだ / kinou yasunda）。", "explanation": "「のう」里的「う」是长音。", "tags": ["日期", "N5"] },
+    { "id": "ja-num-016", "type": "vocab", "prompt": "**今**（いま / ima）", "answer": "现在。例：今、何時？（いま、なんじ？ / ima, nanji?）。", "explanation": "两个音节，很短，别读成「一马」。", "tags": ["时间", "N5"] },
+    { "id": "ja-num-017", "type": "vocab", "prompt": "**月曜日**（げつようび / getsuyoubi）", "answer": "星期一。例：月曜日に会う（げつようびに あう / getsuyoubi ni au）。", "explanation": "星期＝月火水木金土日，从「月」开始。", "tags": ["星期", "N5"] },
+    { "id": "ja-num-018", "type": "vocab", "prompt": "**火曜日**（かようび / kayoubi）", "answer": "星期二。例：火曜日は休み（かようびは やすみ / kayoubi wa yasumi）。", "explanation": "注意「火」在这里读 か，不读 ひ。", "tags": ["星期", "N5"] },
+    { "id": "ja-num-019", "type": "vocab", "prompt": "**日曜日**（にちようび / nichiyoubi）", "answer": "星期日。例：日曜日は忙しい（にちようびは いそがしい / nichiyoubi wa isogashii）。", "explanation": "「にち」+「ようび」，两个词组成。", "tags": ["星期", "N5"] },
+    { "id": "ja-num-020", "type": "vocab", "prompt": "**何曜日**（なんようび / nan'youbi）", "answer": "星期几。例：今日は何曜日？（きょうは なんようび？ / kyou wa nan'youbi?）。", "explanation": "なん + ようび；罗马音里用 ' 分隔，避免读成 nanyoubi。", "tags": ["星期", "N5"] }
+  ]
+}

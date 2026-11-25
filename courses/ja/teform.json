@@ -1,0 +1,24 @@
+{
+  "id": "ja-teform",
+  "course": "ja",
+  "level": "intermediate",
+  "name": "动词活用（ます形·て形）",
+  "description": "日语动词变形的规则卡：三类动词怎么变 ます形、て形，以及 て形最常用的四种句型。看懂规则，就不用一个个背。",
+  "cards": [
+    { "id": "ja-te-001", "type": "concept", "prompt": "五段动词的 ます形怎么变？", "answer": "把词尾从「う段」换成「い段」再加 ます：書く→書きます、話す→話します、買う→買います。", "explanation": "五段＝词尾在 あ/い/う/え/お 五段上跑，換段是核心。", "tags": ["活用", "ます形"] },
+    { "id": "ja-te-002", "type": "concept", "prompt": "一段动词的 ます形怎么变？", "answer": "去掉词尾的 る 再加 ます：食べる→食べます、見る→見ます、起きる→起きます。", "explanation": "一段动词词尾一定是 る，前面是 い/え 段。", "tags": ["活用", "ます形"] },
+    { "id": "ja-te-003", "type": "concept", "prompt": "する 和 来る 的 ます形？", "answer": "する→します；来る→来ます（きます / kimasu）。", "explanation": "两个不规则动词，最常用，单独背。", "tags": ["活用", "不规则"] },
+    { "id": "ja-te-004", "type": "concept", "prompt": "て形的第一组规则：う・つ・る 结尾？", "answer": "变成 って：買う→買って、待つ→待って、帰る→帰って。", "explanation": "这三个最常见，先记这一条就够用一阵。", "tags": ["活用", "て形"] },
+    { "id": "ja-te-005", "type": "concept", "prompt": "て形第二组：む・ぶ・ぬ 结尾？", "answer": "变成 んで：読む→読んで、遊ぶ→遊んで、死ぬ→死んで。", "explanation": "「ん」是拨音，占一拍。", "tags": ["活用", "て形"] },
+    { "id": "ja-te-006", "type": "concept", "prompt": "て形第三组：く・ぐ 结尾？", "answer": "く→いて：書く→書いて；ぐ→いで：泳ぐ→泳いで。", "explanation": "浊音 ぐ 变 いで，清音 く 变 いて。", "tags": ["活用", "て形"] },
+    { "id": "ja-te-007", "type": "concept", "prompt": "て形第四组：す 结尾？", "answer": "变成 して：話す→話して、貸す→貸して。", "explanation": "「す」只有一个规则，最省心。", "tags": ["活用", "て形"] },
+    { "id": "ja-te-008", "type": "concept", "prompt": "て形的唯一例外是哪个词？", "answer": "行く→行って（不是 行いて）。", "explanation": "整个日语里 て形只有 行く 这一个例外。", "tags": ["活用", "て形"] },
+    { "id": "ja-te-009", "type": "concept", "prompt": "「〜てください」是什么意思？", "answer": "请（做某事）。例：待ってください（まってください / matte kudasai）＝请等一下。", "explanation": "て形最常用的句型，请求、指示都用它。", "tags": ["句型", "请求"] },
+    { "id": "ja-te-010", "type": "concept", "prompt": "「〜ています」表示什么？", "answer": "正在做；或状态的持续。例：食べています（たべています / tabete imasu）＝正在吃。", "explanation": "「住んでいます」＝住在（状态持续），不是「正在住」。", "tags": ["句型", "进行"] },
+    { "id": "ja-te-011", "type": "concept", "prompt": "动词的否定（礼貌体）怎么变？", "answer": "ます形把 ます 换成 ません：行きます→行きません。", "explanation": "过去否定是 ませんでした，共三档。", "tags": ["活用", "否定"] },
+    { "id": "ja-te-012", "type": "concept", "prompt": "动词的过去（礼貌体）怎么变？", "answer": "ます→ました：行きます→行きました。", "explanation": "过去否定：行きませんでした。", "tags": ["活用", "过去"] },
+    { "id": "ja-te-013", "type": "concept", "prompt": "い形容词的过去式？", "answer": "词尾 い 变 かった：暑い→暑かった（あつかった / atsukatta）。", "explanation": "否定过去：暑くなかった。", "tags": ["活用", "形容词"] },
+    { "id": "ja-te-014", "type": "concept", "prompt": "な形容词的过去式？", "answer": "词干 + でした：元気→元気でした。", "explanation": "现在肯定用 です，过去用 でした。", "tags": ["活用", "形容词"] },
+    { "id": "ja-te-015", "type": "concept", "prompt": "「〜たい」怎么接？", "answer": "ます形词干 + たい：食べます→食べたい（想吃）。", "explanation": "たい 按い形容词变化：食べたかった＝当时想吃。", "tags": ["句型", "愿望"] }
+  ]
+}

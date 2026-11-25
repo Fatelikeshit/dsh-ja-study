@@ -1,0 +1,33 @@
+{
+  "id": "ja-daily",
+  "course": "ja",
+  "level": "beginner",
+  "name": "日常动作（动词）",
+  "description": "起床、上班、坐下、等待、借用、忘记……最常做的一批动作，每个配一句实际会用到的短句。",
+  "cards": [
+    { "id": "ja-dly-001", "type": "vocab", "prompt": "**起きる**（おきる / okiru）", "answer": "起床。例：七時に起きる（しちじに おきる / shichiji ni okiru）。", "explanation": "时间点用「に」；一段动词。", "tags": ["动词", "N5"] },
+    { "id": "ja-dly-002", "type": "vocab", "prompt": "**寝る**（ねる / neru）", "answer": "睡觉。例：早く寝る（はやく ねる / hayaku neru）。", "explanation": "「はやく」是副词，修饰动词。", "tags": ["动词", "N5"] },
+    { "id": "ja-dly-003", "type": "vocab", "prompt": "**働く**（はたらく / hataraku）", "answer": "工作。例：会社で働く（かいしゃで はたらく / kaisha de hataraku）。", "explanation": "工作地点用「で」，因为那是动作发生的场所。", "tags": ["动词", "N5"] },
+    { "id": "ja-dly-004", "type": "vocab", "prompt": "**休む**（やすむ / yasumu）", "answer": "休息；请假。例：今日は休む（きょうは やすむ / kyou wa yasumu）。", "explanation": "「休み」是名词，休息日。", "tags": ["动词", "N5"] },
+    { "id": "ja-dly-005", "type": "vocab", "prompt": "**入る**（はいる / hairu）", "answer": "进入。例：部屋に入る（へやに はいる / heya ni hairu）。", "explanation": "进入的场所用「に」；自动词。", "tags": ["动词", "N5"] },
+    { "id": "ja-dly-006", "type": "vocab", "prompt": "**出る**（でる / deru）", "answer": "出去；离开。例：家を出る（いえを でる / ie o deru）。", "explanation": "离开的场所用「を」，这是「を」的特殊用法。", "tags": ["动词", "N5"] },
+    { "id": "ja-dly-007", "type": "vocab", "prompt": "**座る**（すわる / suwaru）", "answer": "坐。例：椅子に座る（いすに すわる / isu ni suwaru）。", "explanation": "坐的地方用「に」。", "tags": ["动词", "N5"] },
+    { "id": "ja-dly-008", "type": "vocab", "prompt": "**立つ**（たつ / tatsu）", "answer": "站。例：ここに立つ（ここに たつ / koko ni tatsu）。", "explanation": "和 座る 相对。", "tags": ["动词", "N5"] },
+    { "id": "ja-dly-009", "type": "vocab", "prompt": "**待つ**（まつ / matsu）", "answer": "等。例：駅で待つ（えきで まつ / eki de matsu）。", "explanation": "地点用「で」；て形特殊，是 待って。", "tags": ["动词", "N5"] },
+    { "id": "ja-dly-010", "type": "vocab", "prompt": "**使う**（つかう / tsukau）", "answer": "使用。例：箸を使う（はしを つかう / hashi o tsukau）。", "explanation": "「はし」是筷子；工具用「を」。", "tags": ["动词", "N5"] },
+    { "id": "ja-dly-011", "type": "vocab", "prompt": "**作る**（つくる / tsukuru）", "answer": "做、制作。例：ご飯を作る（ごはんを つくる / gohan o tsukuru）。", "explanation": "做饭＝ご飯を作る。", "tags": ["动词", "N5"] },
+    { "id": "ja-dly-012", "type": "vocab", "prompt": "**洗う**（あらう / arau）", "answer": "洗。例：手を洗う（てを あらう / te o arau）。", "explanation": "「手」读 て，只有一个音节。", "tags": ["动词", "N5"] },
+    { "id": "ja-dly-013", "type": "vocab", "prompt": "**歩く**（あるく / aruku）", "answer": "走、步行。例：駅まで歩く（えきまで あるく / eki made aruku）。", "explanation": "「まで」表示到某个地点为止。", "tags": ["动词", "N5"] },
+    { "id": "ja-dly-014", "type": "vocab", "prompt": "**走る**（はしる / hashiru）", "answer": "跑。例：公園を走る（こうえんを はしる / kouen o hashiru）。", "explanation": "跑过的场所用「を」，和 散歩 一样。", "tags": ["动词", "N5"] },
+    { "id": "ja-dly-015", "type": "vocab", "prompt": "**遊ぶ**（あそぶ / asobu）", "answer": "玩。例：友達と遊ぶ（ともだちと あそぶ / tomodachi to asobu）。", "explanation": "一起做的人用「と」。", "tags": ["动词", "N5"] },
+    { "id": "ja-dly-016", "type": "vocab", "prompt": "**歌う**（うたう / utau）", "answer": "唱歌。例：歌を歌う（うたを うたう / uta o utau）。", "explanation": "名词「歌」和动词「歌う」只差一个音。", "tags": ["动词", "N5"] },
+    { "id": "ja-dly-017", "type": "vocab", "prompt": "**笑う**（わらう / warau）", "answer": "笑。例：みんな笑う（みんな わらう / minna warau）。", "explanation": "「わらう」三个音节。", "tags": ["动词", "N5"] },
+    { "id": "ja-dly-018", "type": "vocab", "prompt": "**泣く**（なく / naku）", "answer": "哭。例：子供が泣く（こどもが なく / kodomo ga naku）。", "explanation": "和 笑う 相对。", "tags": ["动词", "N5"] },
+    { "id": "ja-dly-019", "type": "vocab", "prompt": "**借りる**（かりる / kariru）", "answer": "借（入）。例：本を借りる（ほんを かりる / hon o kariru）。", "explanation": "借进来用 借りる；借出去用 貸す。", "tags": ["动词", "N5"] },
+    { "id": "ja-dly-020", "type": "vocab", "prompt": "**貸す**（かす / kasu）", "answer": "借出。例：傘を貸す（かさを かす / kasa o kasu）。", "explanation": "一对：借りる＝借入，貸す＝借出。", "tags": ["动词", "N5"] },
+    { "id": "ja-dly-021", "type": "vocab", "prompt": "**返す**（かえす / kaesu）", "answer": "归还。例：本を返す（ほんを かえす / hon o kaesu）。", "explanation": "「かえす」和「帰る」（回家）不同。", "tags": ["动词", "N5"] },
+    { "id": "ja-dly-022", "type": "vocab", "prompt": "**忘れる**（わすれる / wasureru）", "answer": "忘记。例：名前を忘れた（なまえを わすれた / namae o wasureta）。", "explanation": "忘的东西用「を」；一段动词。", "tags": ["动词", "N5"] },
+    { "id": "ja-dly-023", "type": "vocab", "prompt": "**覚える**（おぼえる / oboeru）", "answer": "记住、学会。例：単語を覚える（たんごを おぼえる / tango o oboeru）。", "explanation": "和 忘れる 相反；「単語」＝单词。", "tags": ["动词", "N5"] },
+    { "id": "ja-dly-024", "type": "vocab", "prompt": "**呼ぶ**（よぶ / yobu）", "answer": "叫、呼唤。例：名前を呼ぶ（なまえを よぶ / namae o yobu）。", "explanation": "「よぶ」和「読む」（读）不同，别混。", "tags": ["动词", "N5"] }
+  ]
+}

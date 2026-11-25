@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Japanese study panel",
+    "description": "A sidebar study panel for Japanese: flip through local decks, mark each card as remembered or missed, and see today's count against the daily goal plus your streak. Card content comes from the course-pack directory in its configuration (read on every request, so editing a deck takes effect immediately); progress is written to $DSH_HOME/ja-study.json. The panel does not inject system prompts or call the model. Turning the bundle off hides the panel and keeps the progress file."
+  }
+}

@@ -1,0 +1,16 @@
+# dsh-ja-study bundle patch.
+#
+# One row mounts both halves: the Host half serves the deck and progress JSON
+# under /api/ja-study/*, the browser half registers the sidebar icon and the
+# main study panel. coursesDir points at a course-pack root shaped like
+# `ja/<deck>.json`; the defaults below are complete on purpose because a user
+# patch replaces the whole entry config.
+- insert:
+    - id: ja-study
+      name: 'dsh-ja-study'
+      config:
+        # Optional: your own course-pack root shaped like `ja/<deck>.json`.
+        # Leave it out to use the decks bundled in `courses/` of this package.
+        # coursesDir: /absolute/path/to/courses
+        # Cards per day used for the progress bar; reporting only.
+        dailyGoal: 10

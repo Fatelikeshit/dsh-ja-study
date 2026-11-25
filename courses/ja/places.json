@@ -1,0 +1,29 @@
+{
+  "id": "ja-places",
+  "course": "ja",
+  "level": "beginner",
+  "name": "场所·交通",
+  "description": "出门会用到的地点和交通工具：车站、图书馆、医院、地铁、出租车，以及「旁边」「对面」这类方位词。",
+  "cards": [
+    { "id": "ja-place-001", "type": "vocab", "prompt": "**駅**（えき / eki）", "answer": "车站。例：駅で会う（えきで あう / eki de au）。", "explanation": "约在车站见：地点用「で」。", "tags": ["场所", "N5"] },
+    { "id": "ja-place-002", "type": "vocab", "prompt": "**店**（みせ / mise）", "answer": "店。例：あの店は安い（あの みせは やすい / ano mise wa yasui）。", "explanation": "「あの」＝那个（指远处）。", "tags": ["场所", "N5"] },
+    { "id": "ja-place-003", "type": "vocab", "prompt": "**図書館**（としょかん / toshokan）", "answer": "图书馆。例：図書館で勉強する（としょかんで べんきょうする / toshokan de benkyou suru）。", "explanation": "四个汉字，音读：と・しょ・かん。", "tags": ["场所", "N5"] },
+    { "id": "ja-place-004", "type": "vocab", "prompt": "**病院**（びょういん / byouin）", "answer": "医院。例：病院へ行く（びょういんへ いく / byouin e iku）。", "explanation": "「びょう」是拗音＋长音。", "tags": ["场所", "N5"] },
+    { "id": "ja-place-005", "type": "vocab", "prompt": "**公園**（こうえん / kouen）", "answer": "公园。例：公園を散歩する（こうえんを さんぽする / kouen o sanpo suru）。", "explanation": "散步经过的场所用「を」。", "tags": ["场所", "N5"] },
+    { "id": "ja-place-006", "type": "vocab", "prompt": "**銀行**（ぎんこう / ginkou）", "answer": "银行。例：銀行でお金を出す（ぎんこうで おかねを だす / ginkou de okane o dasu）。", "explanation": "「お金を出す」＝取钱。", "tags": ["场所", "N5"] },
+    { "id": "ja-place-007", "type": "vocab", "prompt": "**郵便局**（ゆうびんきょく / yuubinkyoku）", "answer": "邮局。例：郵便局はどこ？（ゆうびんきょくは どこ？ / yuubinkyoku wa doko?）。", "explanation": "「どこ」＝哪里，问地点。", "tags": ["场所", "N5"] },
+    { "id": "ja-place-008", "type": "vocab", "prompt": "**会社**（かいしゃ / kaisha）", "answer": "公司。例：会社に行く（かいしゃに いく / kaisha ni iku）。", "explanation": "「かいしゃ」的「しゃ」是拗音。", "tags": ["场所", "N5"] },
+    { "id": "ja-place-009", "type": "vocab", "prompt": "**階段**（かいだん / kaidan）", "answer": "楼梯。例：階段を上る（かいだんを のぼる / kaidan o noboru）。", "explanation": "上下楼梯的场所用「を」。", "tags": ["场所", "N5"] },
+    { "id": "ja-place-010", "type": "vocab", "prompt": "**地下鉄**（ちかてつ / chikatetsu）", "answer": "地铁。例：地下鉄に乗る（ちかてつに のる / chikatetsu ni noru）。", "explanation": "「てつ」的「つ」音短促。", "tags": ["交通", "N5"] },
+    { "id": "ja-place-011", "type": "vocab", "prompt": "**自転車**（じてんしゃ / jitensha）", "answer": "自行车。例：自転車で行く（じてんしゃで いく / jitensha de iku）。", "explanation": "交通手段用「で」。", "tags": ["交通", "N5"] },
+    { "id": "ja-place-012", "type": "vocab", "prompt": "**飛行機**（ひこうき / hikouki）", "answer": "飞机。例：飛行機に乗る（ひこうきに のる / hikouki ni noru）。", "explanation": "「こう」是长音，「き」结尾。", "tags": ["交通", "N5"] },
+    { "id": "ja-place-013", "type": "vocab", "prompt": "**タクシー**（takushii）", "answer": "出租车。例：タクシーを呼ぶ（たくしーを よぶ / takushii o yobu）。", "explanation": "片假名；「シー」长音。", "tags": ["交通", "N5"] },
+    { "id": "ja-place-014", "type": "vocab", "prompt": "**空港**（くうこう / kuukou）", "answer": "机场。例：空港まで行く（くうこうまで いく / kuukou made iku）。", "explanation": "两个长音：くう・こう。", "tags": ["交通", "N5"] },
+    { "id": "ja-place-015", "type": "vocab", "prompt": "**道**（みち / michi）", "answer": "路。例：道を渡る（みちを わたる / michi o wataru）。", "explanation": "「わたる」＝过（马路）。", "tags": ["场所", "N5"] },
+    { "id": "ja-place-016", "type": "vocab", "prompt": "**交差点**（こうさてん / kousaten）", "answer": "十字路口。例：次の交差点（つぎの こうさてん / tsugi no kousaten）。", "explanation": "「つぎの」＝下一个。", "tags": ["场所", "N5"] },
+    { "id": "ja-place-017", "type": "vocab", "prompt": "**近く**（ちかく / chikaku）", "answer": "附近。例：駅の近く（えきの ちかく / eki no chikaku）。", "explanation": "名词，接「の」修饰后面的词。", "tags": ["方位", "N5"] },
+    { "id": "ja-place-018", "type": "vocab", "prompt": "**隣**（となり / tonari）", "answer": "旁边、隔壁。例：隣の家（となりの いえ / tonari no ie）。", "explanation": "指并排的旁边；前后是 まえ／うしろ。", "tags": ["方位", "N5"] },
+    { "id": "ja-place-019", "type": "vocab", "prompt": "**向こう**（むこう / mukou）", "answer": "对面、那边。例：向こうの建物（むこうの たてもの / mukou no tatemono）。", "explanation": "「たてもの」＝建筑物。", "tags": ["方位", "N5"] },
+    { "id": "ja-place-020", "type": "vocab", "prompt": "**トイレ**（toire）", "answer": "厕所。例：トイレはどこですか（といれは どこですか / toire wa doko desu ka）。", "explanation": "问厕所是旅行第一句，背下来。", "tags": ["场所", "N5"] }
+  ]
+}
