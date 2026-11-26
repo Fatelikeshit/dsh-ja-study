@@ -18,8 +18,9 @@ idioms — split into 初级 / 中级 / 高级.
   too dark or too light.
 - **Typing drill**: type the romaji reading of the card and press Enter. The
   checker converts your input back to kana, so `si`/`shi`, `tu`/`tsu`,
-  `hu`/`fu`, `xtu`/`ltu` and `-` for ー all pass. Cards without a kana reading
-  keep the plain flip.
+  `hu`/`fu`, `xtu`/`ltu` and `-` for ー all pass, and kana produced by a
+  Japanese IME (`ん` for `n`) is compared directly. Cards without a kana
+  reading keep the plain flip.
 - **Pronunciation**: a 🔊 button on each face speaks the kana through the system
   Japanese voice, with a network TTS fallback when the page has none.
 - **Small window**: a draggable, collapsible floating panel (`shell.overlay`) for
