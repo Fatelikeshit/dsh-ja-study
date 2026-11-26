@@ -2,20 +2,14 @@ import { readFileSync } from 'node:fs'
 
 const text = readFileSync(new URL('../client.js', import.meta.url), 'utf8')
 const start = text.indexOf('const ROMAJI_KANA')
-const hintStart = text.indexOf('function keystrokeHint')
-const returnAt = text.indexOf("return ''", hintStart)
-const end = text.indexOf('\n    }', returnAt) + '\n    }'.length
-const code = text.slice(start, end)
-const lib = new Function(`${code}\nreturn { romajiToKana, normalizeKana, extractReading, keystrokeHint, kanaToRomaji }`)()
+const acceptStart = text.indexOf('function acceptsTyping')
+const end = text.indexOf('\n    }', acceptStart) + '\n    }'.length
+const lib = new Function(`${text.slice(start, end)}\nreturn { romajiToKana, normalizeKana, extractReading, keystrokeHint, kanaToRomaji, acceptsTyping }`)()
 
-const cleanRomaji = (t) => String(t).toLowerCase().replace(/[\s'’,，-]/g, '')
-const accepts = (typed, reading) => {
-  const sameSpelling = cleanRomaji(typed) === cleanRomaji(reading.romaji) && typed.trim() !== ''
-  const sameKana = lib.normalizeKana(lib.romajiToKana(typed)) === lib.normalizeKana(reading.kana) && typed.trim() !== ''
-  return sameSpelling || sameKana
-}
+const accepts = (typed, reading) => lib.acceptsTyping(typed, reading)
 
 const cases = [
+  // typed, reading, expected
   ['koohii', { kana: 'こーひー', romaji: 'koohii' }, true],
   ['ko-hi-', { kana: 'こーひー', romaji: 'koohii' }, true],
   ['kohii', { kana: 'こーひー', romaji: 'koohii' }, false],
@@ -36,6 +30,11 @@ const cases = [
   ['shinbun', { kana: 'しんぶん', romaji: 'shinbun' }, true],
   ['chotto', { kana: 'ちょっと', romaji: 'chotto' }, true],
   ['matcha', { kana: 'まっちゃ', romaji: 'matcha' }, true],
+  // Japanese IME output: the input is already kana.
+  ['ん', { kana: 'ん', romaji: 'n' }, true],
+  ['がっこう', { kana: 'がっこう', romaji: 'gakkou' }, true],
+  ['みず', { kana: 'みず', romaji: 'mizu' }, true],
+  ['か', { kana: 'みず', romaji: 'mizu' }, false],
 ]
 
 let bad = 0

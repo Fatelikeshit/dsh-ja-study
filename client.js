@@ -674,10 +674,13 @@ window.__ModuleLoader__.load({
      */
     function acceptsTyping(typed, reading) {
       if (reading === null || typed.trim() === '') return false
-      const clean = (text) => String(text).toLowerCase().replace(/[\s'’,，-]/g, '')
-      const sameSpelling = clean(typed) === clean(reading.romaji)
-      const sameKana = normalizeKana(romajiToKana(typed)) === normalizeKana(reading.kana)
-      return sameSpelling || sameKana
+      const text = String(typed).trim()
+      // Typed with a Japanese IME: the answer is already kana.
+      const directKana = /[ぁ-んー]/.test(text) && normalizeKana(text) === normalizeKana(reading.kana)
+      const clean = (value) => String(value).toLowerCase().replace(/[\s'’,，-]/g, '')
+      const sameSpelling = clean(text) === clean(reading.romaji)
+      const sameKana = normalizeKana(romajiToKana(text)) === normalizeKana(reading.kana)
+      return directKana || sameSpelling || sameKana
     }
 
     function PanelIcon(props) {
@@ -980,7 +983,7 @@ window.__ModuleLoader__.load({
                                 'div',
                                 { style: { display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'wrap' } },
                                 h('button', { className: 'jas-btn', disabled: typed.trim() === '', onClick: checkTyped }, '检查'),
-                                verdict === 'ng' ? h('span', { className: 'jas-typeerr' }, `不对，应为 ${reading.romaji}`) : null,
+                                verdict === 'ng' ? h('span', { className: 'jas-typeerr' }, `不对，应为 ${reading.romaji}（${reading.kana}）`) : null,
                                 verdict === 'ok' ? h('span', { className: 'jas-typeok' }, `✓ ${reading.romaji}`) : null,
                               ),
                             )
@@ -1368,7 +1371,7 @@ window.__ModuleLoader__.load({
                               'div',
                               { style: { display: 'flex', gap: '6px', alignItems: 'center', flexWrap: 'wrap' } },
                               h('button', { className: 'jas-btn', disabled: typed.trim() === '', onClick: checkTyped }, '检查'),
-                              verdict === 'ng' ? h('span', { className: 'jas-typeerr' }, `应为 ${reading.romaji}`) : null,
+                              verdict === 'ng' ? h('span', { className: 'jas-typeerr' }, `应为 ${reading.romaji}（${reading.kana}）`) : null,
                               verdict === 'ok' ? h('span', { className: 'jas-typeok' }, `✓ ${reading.romaji}`) : null,
                             ),
                           )
