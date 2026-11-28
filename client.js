@@ -84,6 +84,28 @@ window.__ModuleLoader__.load({
       return value
     }
 
+    /**
+     * Keep today's numbers fresh: the count resets at midnight, and the float
+     * can be open for days, so refresh on an interval, on focus and on tab
+     * visibility instead of only at mount.
+     * @param {() => Promise<unknown>} refresh
+     */
+    function useAutoRefresh(refresh) {
+      React.useEffect(() => {
+        const tick = () => {
+          if (document.visibilityState === 'visible') void refresh()
+        }
+        const timer = window.setInterval(tick, 60_000)
+        window.addEventListener('focus', tick)
+        document.addEventListener('visibilitychange', tick)
+        return () => {
+          window.clearInterval(timer)
+          window.removeEventListener('focus', tick)
+          document.removeEventListener('visibilitychange', tick)
+        }
+      }, [refresh])
+    }
+
     const CSS = `
       .jas-root {
         box-sizing: border-box; height: 100%; overflow: auto;
@@ -739,6 +761,8 @@ window.__ModuleLoader__.load({
         }
       }, [])
 
+      useAutoRefresh(refresh)
+
       const draw = React.useCallback(async (deckId, levelId) => {
         setBusy(true)
         try {
@@ -1115,6 +1139,8 @@ window.__ModuleLoader__.load({
         }
       }, [])
 
+      useAutoRefresh(refresh)
+
       const draw = React.useCallback(async (selector) => {
         if (selector === '') return
         const [levelId, deckId] = selector.split('|')
@@ -1217,6 +1243,7 @@ window.__ModuleLoader__.load({
         if (drag !== null && !drag.moved) {
           setCollapsed(false)
           writeLocal(FLOAT_COLLAPSED_KEY, '0')
+          void refresh()
         }
       }
 
@@ -1257,6 +1284,7 @@ window.__ModuleLoader__.load({
                 event.preventDefault()
                 setCollapsed(false)
                 writeLocal(FLOAT_COLLAPSED_KEY, '0')
+                void refresh()
               }
             },
           },
